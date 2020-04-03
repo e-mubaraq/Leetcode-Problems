@@ -5,7 +5,7 @@ Leetcode Day3 - Maximum Subarray Problem solved with Kadane's Algorithm
 class Solution {
     public int maxSubArray(int[] nums) {
         int i, j, len, sum = 0;
-        int maxSum = Integer.MIN_VALUE;
+        int maxSum = Integer.MIN_VALUE; //Initialize to minimum possible value of an integer
         
         len = nums.length;
             
